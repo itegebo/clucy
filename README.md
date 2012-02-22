@@ -46,7 +46,7 @@ like more fine-grained control over which fields are stored and index,
 add this to the meta-data for your map.
 
     (with-meta {:name "Stever", :job "Writer", :phone "555-212-0202"}
-      {:phone {:store false}})
+      {:phone {:stored false}})
 
 When the map above is saved to the index, the phone field will be
 available for searching but will not be part of map in the search
